@@ -3,11 +3,13 @@ import tailwindConfig from "./tailwind.config";
 import autoprefixer from 'autoprefixer';
 import tailwindcss from 'tailwindcss';
 
+
 const plugins = [
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-codegen`,
     {
         resolve: `gatsby-source-filesystem`,
